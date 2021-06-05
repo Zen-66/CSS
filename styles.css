@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  color: #231e23;
+  font-size: 100%;
+}
+
+hr {
+  border-style: solid none none;
+  border-width: medium;
+  border-color: #39a6a3;
+  width: 25%;
+  margin: 0 auto 30px;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  font-size: 562.5%;
+  color: #deeeea;
+}
+
+.h1-text {
+  font-family: 'Caveat', cursive;
+  color: #deeeea;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #deeeea;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #231e23;
+}
+
+.top-container {
+  background-color: #39a6a3;
+  position: relative;
+  padding: 100px 20px 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.middle-container {
+  padding: 50px;
+  background-color: #bf1363;
+  /*  height: 200px;*/
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+}
+
+.think {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.controller {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.letter-P {
+  height: 150px;
+  width: 150px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom-container {
+  padding: 50px 0 30px;
+  background-color: #39a6a3;
+  /*  height: 200px;
+  width: 200px; */
+}
+
+a {
+  margin: 10px 20px;
+  text-decoration: none;
+  color: #DEEEEA;
+}
+
+a:hover {
+  color: #bf1363;
+}
+
+.sign {
+  color: #DEEEEA;
+  font-size: 0.80rem;
+  margin: 20px auto 0;
+}
+
+.contact-me {
+  padding: 25px;
+}
+
+.btn {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #231E23;
+  font-family: Open Sans;
+  font-size: 20px;
+  padding: 15px;
+  background-color: #39A6A3;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #DEEEEA;
+  border: solid #bf1363 0;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 20px;
+  text-decoration: none;
+}
